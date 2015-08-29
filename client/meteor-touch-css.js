@@ -9,8 +9,8 @@ Meteor.startup(function() {
               hoverRules.push(index);
             }
           });
-          // reversing rules order, because removing a rule affects 
-          // indexes at stylesheet.cssRules object
+          // reversing rules order, because removing of a rule affects on
+          // indexes in stylesheet.cssRules object
           hoverRules.reverse().forEach(function(hoverRuleIndex) {
             stylesheet.deleteRule(hoverRuleIndex);
           });
