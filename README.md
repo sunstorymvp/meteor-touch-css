@@ -8,6 +8,16 @@ contains class `__meteor-css__` and then removes all `:hover` style rules found.
 
 It takes about 35ms to remove 100 `:hover` rules on ipad 4.
 
+**Important:** Note that it also removes the complex style rules 
+that selectors contain `:hover`, for example:
+
+```css
+a:hover,
+a:focus {
+  color: blue
+}
+```
+
 ### Install
 
 `meteor add sunstory:meteor-touch-css`
