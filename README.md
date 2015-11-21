@@ -27,3 +27,7 @@ a:focus {
 If you change your css file during development and live update appears,
 it leads to updating CSSOM by browser with a new stylesheet.
 You will need to refresh page manually to rerun script.
+
+### Changelog
+
+* **21 Nov 2015**: Remove `:hover` rules declared inside media queries.
