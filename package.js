@@ -1,7 +1,7 @@
 Package.describe({
   name: 'sunstory:meteor-touch-css',
   summary: 'Remove :hover style rules on touch devices.',
-  version: '1.0.2',
+  version: '1.0.3',
   git: 'https://github.com/sunstorymvp/meteor-touch-css.git'
 });
 

@@ -30,4 +30,5 @@ You will need to refresh page manually to rerun script.
 
 ### Changelog
 
+* **26 Nov 2015**: Bugfix: remove ONLY `:hover` rules declared inside media queries.
 * **21 Nov 2015**: Remove `:hover` rules declared inside media queries.
